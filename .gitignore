@@ -3,5 +3,6 @@
 .DS_Store
 pub.cmd
 pub.sh
+.gitignore
 
 #Folders
