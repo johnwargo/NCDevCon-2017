@@ -1,5 +1,7 @@
 # NCDevCon 2017
 
+Sample applications for my NCDevCon 2017 presentation:
+
 + Apache Cordova
 + Ionic
 + React Native
