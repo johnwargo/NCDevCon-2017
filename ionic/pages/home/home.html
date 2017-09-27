@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
       Ionic Sample
     </ion-title>
@@ -12,19 +12,19 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-list #DeviceInfoList>
+  <ion-list inset #DeviceInfoList>
     <ion-list-header>
-      Device Information
+      <h1>Device Information</h1>
     </ion-list-header>
     <ion-item *ngFor="let item of deviceInfo">
-      <h2>{{item.description}}</h2>
+      <h2>{{item.key}}</h2>
       <p>{{item.value}}</p>
     </ion-item>
   </ion-list>
 </ion-content>
 
 <ion-footer>
-  <ion-toolbar>
+  <ion-toolbar color="footer">
     <a href="http://ncdevcon.com/" target="_blank">NCDevCon 2017</a>
   </ion-toolbar>
 </ion-footer>
