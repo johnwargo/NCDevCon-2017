@@ -7,7 +7,7 @@ Sample applications for my NCDevCon 2017 presentation:
 + React Native
 + NativeScript
 
-And, who knows, other interesting stuff
+And, who knows, perhaps some other interesting stuff.
 
 ***
 
