@@ -1,0 +1,14 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+    <Page.actionBar>
+        <ActionBar title="NCDevCon 2017: NativeScript" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>    
+    <ListView items="{{ deviceInfo }}" class="list-group">
+        <ListView.itemTemplate>
+        <StackLayout class="list-group-item">
+            <Label text="{{ key }}" textWrap="true" class="list-group-item-heading" />
+            <Label text="{{ val }}" textWrap="true" class="list-group-item-text"/>
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+</Page>
