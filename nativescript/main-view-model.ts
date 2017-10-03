@@ -14,9 +14,9 @@ export class HelloWorldModel extends Observable {
         deviceInfo.push({ key: "OS Version", val: platformModule.device.osVersion });
         deviceInfo.push({ key: "SDK version", val: platformModule.device.sdkVersion });
         deviceInfo.push({ key: "Screen: Width", val: platformModule.screen.mainScreen.widthPixels });
-        deviceInfo.push({ key: "Screen: height", val: platformModule.screen.mainScreen.heightPixels });
+        deviceInfo.push({ key: "Screen: Height", val: platformModule.screen.mainScreen.heightPixels });
         deviceInfo.push({ key: "Screen: Scale", val: platformModule.screen.mainScreen.scale });
-        //Assign the deviceinfo data to the observable
+        //Assign the deviceInfo data to the observable
         this.set('deviceInfo', deviceInfo);
     }
 
