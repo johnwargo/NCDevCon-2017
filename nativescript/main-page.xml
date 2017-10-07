@@ -5,9 +5,9 @@
     </Page.actionBar>    
     <ListView items="{{ deviceInfo }}" class="list-group">
         <ListView.itemTemplate>
-        <StackLayout class="list-group-item">
-            <Label text="{{ key }}" textWrap="true" class="list-group-item-heading" />
-            <Label text="{{ val }}" textWrap="true" class="list-group-item-text"/>
+            <StackLayout class="list-group-item">
+                <Label text="{{ key }}" textWrap="true" class="list-group-item-heading" />
+                <Label text="{{ val }}" textWrap="true" class="list-group-item-text"/>
             </StackLayout>
         </ListView.itemTemplate>
     </ListView>
