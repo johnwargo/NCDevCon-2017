@@ -1,0 +1,19 @@
+# Apache Cordova
+cdva-create cordovaApp com.johnwargo.cordovaapp "Cordova App"
+
+# Ionic
+ionic start ionicApp blank
+cd ionicApp
+npm install --save @ionic-native/device
+
+# NativeScript
+nativescript create nsApp --tsc
+cd nsApp
+nativescript platform add android
+nativescript platform add ios
+
+# React Native
+react-native init rnApp
+cd rnApp
+npm install --save react-native-device-info
+react-native link react-native-device-info
