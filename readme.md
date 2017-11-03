@@ -12,6 +12,12 @@ For each application, I created a simple UI that renders a list of mobile device
 
 ![Cordova application sample](images/figure-01.png)
 
+**Note:** I originally published my session's presentation file to slideshare.net, but, for some reason the slides are no longer available there. I published a backup copy of the presentation at my personal blog at [https://johnwargo.com/mobile-development/ncdevcon-2017-presentation.html](https://johnwargo.com/mobile-development/ncdevcon-2017-presentation.html).
+
+Here's a link to a recording of the session:
+
+[![Link to Youtube video](http://img.youtube.com/vi/nYHdbvPewu4/0.jpg)](http://www.youtube.com/watch?v=nYHdbvPewu4 "Cross Platform Mobile Development Using Open Source Tools")
+
 ***
 
 You can find information on many different topics on my [personal blog](http://www.johnwargo.com). Learn about all of my publications at [John Wargo Books](http://www.johnwargobooks.com).
